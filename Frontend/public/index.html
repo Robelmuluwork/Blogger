@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogger</title>
+    <link href="../public/assets/css/tailwind.css" rel="stylesheet" />
+    <style></style>
+  </head>
+
+  <body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="py-6 px-6 lg:px-8">
+      <div
+        class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-gray-800 mb-4 sm:mb-0">Blogger</h1>
+        <nav class="flex flex-wrap justify-center gap-4 sm:gap-8 items-center">
+          <a href="#" class="text-gray-600 hover:text-gray-900">Our story</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Membership</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Write</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Sign in</a>
+          <a
+            href="../src/components/SignupForm.html"
+            class="bg-black text-white rounded-full px-4 py-2 hover:bg-gray-800 transition-colors"
+            >Get started</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-24">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <!-- Left Column -->
+          <div class="text-center lg:text-left">
+            <h2
+              class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight mb-6"
+            >
+              Human stories and
+              <span id="animated-word" class="text-blue-600 animate-word"
+                >ideas</span
+              >
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              A place to read, write, and deepen your understanding.
+            </p>
+            <a
+              href="../src/components/SignupForm.html"
+              class="inline-block bg-black text-white rounded-full px-6 py-2 hover:bg-gray-800 transition-colors"
+              >Start Reading</a
+            >
+          </div>
+
+          <!-- Right Column -->
+          <div class="hidden lg:block">
+            <img
+              src="../public/assets/images/undraw_typewriter_re_u9i2 (1).svg"
+              alt="People reading and writing stories"
+              class="w-full h-auto max-w-lg mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 lg:px-8 mt-auto">
+      <div class="max-w-7xl mx-auto">
+        <nav class="flex flex-wrap justify-center gap-6">
+          <a href="#" class="text-gray-600 hover:text-gray-900">Help</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">About</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Press</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Blog</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="../src/js/script.js"></script>
+  </body>
+</html>
